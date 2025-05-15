@@ -31,24 +31,26 @@
 ![image](pictures/2.png)
 ![image](pictures/3.png)
 ![image](pictures/4.png)
-<br>
+
 - 游记详情页：该页面会显示游记的详细内容，包含发布游记的作者信息及游记内容，游记的图片可以左右滑动显示<br>
+![image](pictures/4.png)
 ![image](pictures/5.png)
 ![image](pictures/6.png)
-<br>
+
 - 我的游记页：该页面会先验证登录状态，未登录是会给出跳转登录界面的按钮，登录后显示用户的个人信息以及已发布的游记，游记会显示当前状态，可以对游记进行删除的操作，已通过审核的游记点击卡片会跳转至详情页，点击退出登录按钮会弹出退出对话窗<br>
 ![image](pictures/7.png)
 ![image](pictures/8.png)
 ![image](pictures/9.png)
-<br>
+
 - 游记发布页：用户登录后可以通过主页面的发布入口进入发布页，该页面可以通过相册上传图片，提交时会有校验<br>
 ![image](pictures/10.png)
 ![image](./pictures/11.png)
-<br>
+
 - 登录界面：该页面实现了用户的登录功能，登录时账号重复、账号不存在、密码错误、账号或密码为输入均会弹出错误提示<br>
 ![image](pictures/12.png)
+
 - 注册界面：用户可以在这里注册自己的账户，会对密码进行二次校验<br>
 ![image](pictures/13.png)
-<br>
+
 
 
