@@ -33,7 +33,6 @@
 ![image](pictures/4.png)
 
 - 游记详情页：该页面会显示游记的详细内容，包含发布游记的作者信息及游记内容，游记的图片可以左右滑动显示<br>
-![image](pictures/4.png)
 ![image](pictures/5.png)
 ![image](pictures/6.png)
 
