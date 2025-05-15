@@ -15,7 +15,7 @@
   技术栈：React Native、Nodejs<br><br>
   1、 审核端初始化命令如下，在本项目中只需使用`npm install`命令安装依赖即可使用<br>
   ```
-  npx create-react-app trail-tales-app
+  npx create-react-app PC-management-system
   ```
   2、 审核端登陆界面不提供注册功能，需要在后端运行`initManger.js`来初始化审核账号，建议初始化时创建超级管理员账号，在审核页面中会根据当前登录账号的权限提供不同的新建账号功能
 - ### 后端<br>
