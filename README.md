@@ -27,5 +27,20 @@
   ```
 ## 页面设计
 ### app页面设计
+- 首页（游记列表页）：该页面不验证用户的登录状态，通过审核的游记会以瀑布流的形式展示对应的游记卡片，点击卡片会进入到游记详情页，可以通过上方的搜索栏或主题挑选喜欢的游记展示
+![image](https://github.com/user-attachments/assets/4e1d9335-ee9a-4912-8e3a-2dbe1a7bacea)
+![image](https://github.com/user-attachments/assets/a8c7b5d8-1a14-4c12-9c1b-141584b8b16d)
+![image](https://github.com/user-attachments/assets/a506904a-29cf-46bf-9ca7-ff4e1c397127)
+<br>
+- 游记详情页：该页面会显示游记的详细内容，包含发布游记的作者信息及游记内容，游记的图片可以左右滑动显示
+![image](https://github.com/user-attachments/assets/7917e2b1-e6da-4fc4-8d57-aaee7bfa1d0b)
+![image](https://github.com/user-attachments/assets/9a4f242e-b97e-4f49-8ba0-d6b3e554e3f4)
+<br>
+- 我的游记页：该页面会显示用户的个人信息以及已发布的游记，游记会显示当前状态，可以对游记进行删除的操作，已通过审核的游记点击卡片会跳转至详情页，点击退出登录按钮会弹出退出对话窗
+![image](https://github.com/user-attachments/assets/c98d1598-65ee-4a3c-b0b7-429acdbb50ea)
+![image](https://github.com/user-attachments/assets/23bf4c55-5aeb-45bc-820c-3573b477082f)
+<br>
+- 登录界面：该页面实现了用户的登录功能，登录时账号重复、账号不存在、密码错误、账号或密码为输入均会弹出错误提示
+![image](https://github.com/user-attachments/assets/f2eeb19c-c399-4101-ba6a-e976cf23d19e)
 
 
