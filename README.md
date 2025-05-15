@@ -48,7 +48,7 @@
 - 登录界面：该页面实现了用户的登录功能，登录时账号重复、账号不存在、密码错误、账号或密码为输入均会弹出错误提示<br>
 ![image](pictures/12.png)
 - 注册界面：用户可以在这里注册自己的账户，会对密码进行二次校验<br>
-![image](https://github.com/user-attachments/assets/6f9f844a-eafb-47fc-876d-04be90d21410)
+![image](pictures/13.png)
 <br>
 
 
