@@ -1,3 +1,6 @@
 [submodule "trail-tales-app"]
 	path = trail-tales-app
 	url = git@github.com:4454qqq/trail-tales-app.git
+[submodule "PC-management-system"]
+	path = PC-management-system
+	url = git@github.com:4454qqq/PC-management-system.git
