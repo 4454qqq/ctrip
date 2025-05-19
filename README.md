@@ -67,15 +67,13 @@
 ![image](pictures/23.png)
 
 ### PC审核端页面设计
-- 登录页面：该页面实现了用户的登录功能，账号不存在、密码错误、账号或密码未输入均会弹出错误提示。加入是否同意隐私条款协议，未勾选无法进入账户。
+- 登录页面：该页面实现了用户的登录功能，账号不存在、密码错误、账号或密码未输入、不同意隐私条款均会弹出错误提示。同时隐私条款可以打开，输入密码时可以显示或者隐藏。
 ![image](https://github.com/user-attachments/assets/17b72a7d-f0c0-4248-a8f8-d23d5336583d)
 ![image](https://github.com/user-attachments/assets/74d1c117-5b76-4033-a45e-bbe80a90d881)
 ![image](https://github.com/user-attachments/assets/f32347db-5d3f-41d9-8124-56e875fb697b)
 ![image](https://github.com/user-attachments/assets/87f5da82-ad25-4b65-971c-828c8cab4e4d)
 
 
-
-- 主界面
 
 - 角色说明：角色共分为三个，权限依次从高到低，分别为超级管理员（在后端数据库中设置，拥有最高权限）、管理员（由超级管理员设置，可以设定审核人员）、审核人员（仅仅可以审核游记状态）。
 ![image](https://github.com/user-attachments/assets/2e9033be-55c7-41c6-8283-02ca8b797af1)
