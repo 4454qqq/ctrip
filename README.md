@@ -70,6 +70,8 @@
 - 登录页面：该页面实现了用户的登录功能，账号不存在、密码错误、账号或密码未输入均会弹出错误提示。加入是否同意隐私条款协议，未勾选无法进入账户。
 ![ceaab095f32d3e59b19bbc3b7fc7ef7](https://github.com/user-attachments/assets/e0489fb7-3c36-4163-9a18-881990c5f998)
 ![c835de7c8f8c7a679d8dcadb74dbe1b](https://github.com/user-attachments/assets/13c2e084-81f7-45ea-891d-b36ddbb183aa)
+![image](https://github.com/user-attachments/assets/bfe9fae3-427e-4feb-b541-5eca98dbbb07)
+
 
 - 主界面
 
@@ -110,6 +112,8 @@
 - 登录、注册界面限流功能：在后端使用`rateLimit`设置限流的参数，根据后端是否响应状态码`429`来决定限流是否执行，其中登录使用`ip+username`来进行匹配，不计入登录成功的次数，防止暴力破解密码，注册使用`ip`来匹配，不计入注册失败的次数，防止恶意注册。在前端使用`AsyncStorage`持久化存储后端传来的限流时间`retryAfter`，然后使用计时器动态显示剩余限流时间。
 
 ### PC端
+- 数据存储：项目中app及pc端的数据使用mongodb数据库来管理，在后端使用`mongoose`库实现对数据库的操作
 
+- 路由：使用react-router-dom
 
 
