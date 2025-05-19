@@ -67,8 +67,27 @@
 ![image](pictures/23.png)
 
 ### PC审核端页面设计
-- 登录页面：该页面实现了用户的登录功能，账号不存在、密码错误、账号或密码未输入均会弹出错误提示。加入是否同意隐私条款协议，未勾选无法进入账户
-  ![e02e5f61ed42096ea09ee8a08b65460](https://github.com/user-attachments/assets/e9b553bd-0ce2-4672-9b53-ae6c0ff51d07)
+- 登录页面：该页面实现了用户的登录功能，账号不存在、密码错误、账号或密码未输入均会弹出错误提示。加入是否同意隐私条款协议，未勾选无法进入账户。
+![ceaab095f32d3e59b19bbc3b7fc7ef7](https://github.com/user-attachments/assets/e0489fb7-3c36-4163-9a18-881990c5f998)
+![c835de7c8f8c7a679d8dcadb74dbe1b](https://github.com/user-attachments/assets/13c2e084-81f7-45ea-891d-b36ddbb183aa)
+
+- 主界面
+
+- 角色说明：角色共分为三个，权限依次从高到低，分别为超级管理员（在后端数据库中设置，拥有最高权限）、管理员（由超级管理员设置，可以设定审核人员）、审核人员（仅仅可以审核游记状态）。
+![image](https://github.com/user-attachments/assets/2e9033be-55c7-41c6-8283-02ca8b797af1)
+
+
+- 审核列表：审核列表接受从后端传来的游记卡片的数据供PC端操作人员进行审核操作，审核状态共分为三种（待审核、已通过和未通过）、同时上方伴随选择审核状态与游记卡片的搜索。
+![image](https://github.com/user-attachments/assets/d444239b-202f-4c4d-a2f8-4235423877a7)
+
+
+
+- 用户管理列表：登录之后，超级管理员可以在此页面设定管理人员和审核人员，管理员可以在此页面可以设定审核人员，审核人员则没有此页面。该页面包含了编辑人员和删除人员功能。
+ ![image](https://github.com/user-attachments/assets/f754b0e8-42b9-4516-90d2-5ebfb51af13a)
+
+
+- 卡片内容详情：在审核游记的具体内容时，由于游记卡片的范围较小，通常无法承载大量的内容。通过点击游记列表的图片，可以进入内容详情界面，里面包含了游客发布的内容标题、图片以及视频等，方便进行审核操作。
+![image](https://github.com/user-attachments/assets/2fd0bc62-801b-4e6c-aaa5-6e7465a1d04a)
 
 
 ## 功能实现
