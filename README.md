@@ -68,9 +68,11 @@
 
 ### PC审核端页面设计
 - 登录页面：该页面实现了用户的登录功能，账号不存在、密码错误、账号或密码未输入均会弹出错误提示。加入是否同意隐私条款协议，未勾选无法进入账户。
-![ceaab095f32d3e59b19bbc3b7fc7ef7](https://github.com/user-attachments/assets/e0489fb7-3c36-4163-9a18-881990c5f998)
-![c835de7c8f8c7a679d8dcadb74dbe1b](https://github.com/user-attachments/assets/13c2e084-81f7-45ea-891d-b36ddbb183aa)
-![image](https://github.com/user-attachments/assets/bfe9fae3-427e-4feb-b541-5eca98dbbb07)
+![image](https://github.com/user-attachments/assets/17b72a7d-f0c0-4248-a8f8-d23d5336583d)
+![image](https://github.com/user-attachments/assets/74d1c117-5b76-4033-a45e-bbe80a90d881)
+![image](https://github.com/user-attachments/assets/f32347db-5d3f-41d9-8124-56e875fb697b)
+![image](https://github.com/user-attachments/assets/87f5da82-ad25-4b65-971c-828c8cab4e4d)
+
 
 
 - 主界面
