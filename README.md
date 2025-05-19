@@ -77,18 +77,22 @@
 ![image](https://github.com/user-attachments/assets/2e9033be-55c7-41c6-8283-02ca8b797af1)
 
 
-- 审核列表：审核列表接受从后端传来的游记卡片的数据供PC端操作人员进行审核操作，审核状态共分为三种（待审核、已通过和未通过）、同时上方伴随选择审核状态与游记卡片的搜索。
+- 审核列表：审核列表接受从后端传来的游记卡片的数据供PC端操作人员进行审核操作，审核状态共分为三种（待审核、已通过和未通过）、同时上方伴随选择审核状态与游记卡片的搜索功能。
 ![image](https://github.com/user-attachments/assets/d444239b-202f-4c4d-a2f8-4235423877a7)
 
 
 
-- 用户管理列表：登录之后，超级管理员可以在此页面设定管理人员和审核人员，管理员可以在此页面可以设定审核人员，审核人员则没有此页面。该页面包含了编辑人员和删除人员功能。
- ![image](https://github.com/user-attachments/assets/f754b0e8-42b9-4516-90d2-5ebfb51af13a)
+- 用户管理列表：登录之后，超级管理员可以在此页面设定管理人员和审核人员，管理员可以在此页面可以设定审核人员，审核人员则没有此页面。该页面同时包含了编辑人员、删除人员和添加新人员的权限功能。
+![image](https://github.com/user-attachments/assets/f754b0e8-42b9-4516-90d2-5ebfb51af13a)
+![image](https://github.com/user-attachments/assets/12266029-7152-476f-b838-a1e3136478f8)
+
 
 
 - 卡片内容详情：在审核游记的具体内容时，由于游记卡片的范围较小，通常无法承载大量的内容。通过点击游记列表的图片，可以进入内容详情界面，里面包含了游客发布的内容标题、图片以及视频等，方便进行审核操作。
 ![image](https://github.com/user-attachments/assets/2fd0bc62-801b-4e6c-aaa5-6e7465a1d04a)
 
+- 未通过理由填写框：PC端操作人员登录之后，点击未通过后需要填写理由，理由框下面包含一些常见的选项，最后点击提交按钮。
+![image](https://github.com/user-attachments/assets/68c6b7b6-ecb4-4ceb-8d50-e6c13f157dcc)
 
 ## 功能实现
 
