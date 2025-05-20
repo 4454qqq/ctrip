@@ -85,8 +85,10 @@
 
 
 - 用户管理列表：登录之后，超级管理员可以在此页面设定管理人员和审核人员，管理员可以在此页面可以设定审核人员，审核人员则没有此页面。该页面同时包含了编辑人员、删除人员和添加新人员的权限功能。<br>
-![image](https://github.com/user-attachments/assets/f754b0e8-42b9-4516-90d2-5ebfb51af13a)
-![image](https://github.com/user-attachments/assets/12266029-7152-476f-b838-a1e3136478f8)
+![image](https://github.com/user-attachments/assets/08572ca9-3a4f-4cba-86e3-558505a17420)
+![image](https://github.com/user-attachments/assets/4f5d0f46-6acc-44e5-b3fe-a25d04447d20)
+
+
 
 
 
