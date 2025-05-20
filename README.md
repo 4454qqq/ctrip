@@ -117,13 +117,13 @@
 ### PC端
 - 数据存储：项目中app及pc端的数据使用mongodb数据库来管理，在后端使用`mongoose`库实现对数据库的操作
 
-- 路由：使用`react-router-dom`。支持多个页面：`/travelLogList`：旅行日志列表页面，`/permissionList`：权限管理页面，`/userList`：用户管理页面，`/logDetail/:logId`：日志详情页面。
+- 路由：使用`react-router-dom`。支持多个页面：`/travelLogList`：旅行日志列表页面，`/permissionList`：权限管理页面，`/userList`：用户管理页面，`/logDetail/:logId`：日志详情页面
 
-- 在登录界面，用户输入用户名和密码进行登录。登录成功后，将用户信息保存到 `cookie` 中，并调用 `App.js`中的 `handleLogin` 回调函数.登录失败时，显示错误提示。同时该界面使用 `Modal`提供一个隐私条款的弹出框,用户必须同意隐私条款才能登录.
+- 在登录界面，用户输入用户名和密码进行登录。登录成功后，将用户信息保存到 `cookie` 中，并调用 `App.js`中的 `handleLogin` 回调函数。登录失败时，显示错误提示。同时该界面使用 `Modal`提供一个隐私条款的弹出框,用户必须同意隐私条款才能登录
 
-- 管理后台布局使用 `Ant Design` 的 `Layout` 组件实现侧边栏`Sider`、头部`Header`和内容区域`Content`。侧边栏显示菜单，头部显示用户信息和退出登录按钮，内容区域根据路由显示不同的页面。同时根据用户角色（如超级管理员、管理员、审核人员）显示不同的菜单和页面。用户可以退出登录，清除 cookie 并返回登录页面
+- 管理后台布局使用 `Ant Design` 的 `Layout` 组件实现侧边栏`Sider`、头部`Header`和内容区域`Content`。侧边栏显示菜单，头部显示用户信息和退出登录按钮，内容区域根据路由显示不同的页面。同时根据用户角色（如超级管理员、管理员、审核人员）显示不同的菜单和页面。用户可以退出登录，清除 `cookie` 并返回登录页面
 
-- 在审核列表界面，使用`TravelLogList`和`TravelLogCard`共同实现了一个旅行日志管理系统的前端功能，`TravelLogList` 组件负责展示旅行日志的列表，并提供搜索`onSearch`、筛选`handleSelectState`、分页`handlePageChange`等功能。`TravelLogList`使用`map`渲染多个`TravelLogCard`组件，并且提供回调函数（如 `handleStateChange` 和 `handleDelete`）以便于`TravelLogCard`组件更新日志状态或删除日志。`TravelLogCard`组件负责展示单条旅行日志的详细信息，并提供审核操作（通过`handlePassState`、拒绝`handleForbiddenState`、删除`handleDelete`等），如果选择“拒绝”，弹出抽屉组件，用户可以填写拒绝理由`handleSubmitInstruction`。
+- 在审核列表界面，使用`TravelLogList`和`TravelLogCard`共同实现了一个旅行日志管理系统的前端功能，`TravelLogList` 组件负责展示旅行日志的列表，并提供搜索`onSearch`、筛选`handleSelectState`、分页`handlePageChange`等功能。`TravelLogList`使用`map`渲染多个`TravelLogCard`组件，并且提供回调函数（如 `handleStateChange` 和 `handleDelete`）以便于`TravelLogCard`组件更新日志状态或删除日志。`TravelLogCard`组件负责展示单条旅行日志的详细信息，并提供审核操作（通过`handlePassState`、拒绝`handleForbiddenState`、删除`handleDelete`等），如果选择“拒绝”，弹出抽屉组件，用户可以填写拒绝理由`handleSubmitInstruction`
 
 - 在角色说明页面提供了对于不同权限的角色的介绍
 
