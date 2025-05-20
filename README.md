@@ -80,7 +80,8 @@
 
 
 - 审核列表：审核列表接受从后端传来的游记卡片的数据供PC端操作人员进行审核操作，审核状态共分为三种（待审核、已通过和未通过）、同时上方伴随选择审核状态与游记卡片的搜索功能。
-![image](https://github.com/user-attachments/assets/d444239b-202f-4c4d-a2f8-4235423877a7)
+![image](https://github.com/user-attachments/assets/94119c9e-1e5c-428f-acd0-84e131b30f6f)
+
 
 
 
